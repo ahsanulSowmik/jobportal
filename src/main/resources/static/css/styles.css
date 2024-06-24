@@ -298,6 +298,45 @@ label.large-label {
   background-attachment: fixed;
 }
 
+.edit_profile_background {
+  height: 100vh;
+  background-image: linear-gradient(
+          to right,
+          rgba(0, 34, 68, 0.5),
+          rgba(0, 34, 68, 0.5)
+  ),
+  url('../assets/20943587.jpg');
+
+  background-size: cover;
+}
+
+.authentication_page {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+          to right,
+          rgba(0, 34, 68, 0.5),
+          rgba(0, 34, 68, 0.5)
+  ),
+  url('../assets/4205983.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.vacancy_background {
+  overflow: hidden;
+  background-image: linear-gradient(
+          to right,
+          rgba(0, 34, 68, 0.5),
+          rgba(0, 34, 68, 0.5)
+  ),
+  url('../assets/9610474.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top; /* Set background image to start from the left corner */
+}
+
 .myForm {
   display: flex;
   padding: 20px 0;
